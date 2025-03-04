@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { BASE_API_URL } from "@/app/api/constants";
 import Image from "next/image";
-import "./UserPosts.css";
+import "./userPosts.css";
 
 export default function ChangeUserInfo({ user }) {
 
