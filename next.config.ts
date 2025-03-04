@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   images: {
     domains: ['localhost'],
   },
-  output: 'export',
   typescript: {
     ignoreBuildErrors: true,
   }
