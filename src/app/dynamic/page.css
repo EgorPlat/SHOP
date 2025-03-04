@@ -1,0 +1,63 @@
+.dynamic-page {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.dynamic-basic-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    min-height: 300px;
+    background-color: rgba(11, 11, 11, 0.321);
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.dynamic-basic-content-title {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.dynamic-basic-content-title-link:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.dynamic-page-data {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dynamic-page-data-main {
+    display: flex;
+    gap: 10px;
+}
+
+.dynamic-page-data-more {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.dynamic-page-data-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dynamic-page-data-main > img {
+    border-radius: 10px;
+}
+
+.active {
+    color: purple;
+}
+
+.default {
+    color: white;
+}

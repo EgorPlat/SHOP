@@ -1,0 +1,69 @@
+body {
+    display: grid;
+    grid-template-rows: 60px calc(100vh - 100px) 40px;
+    margin: 0;
+    color: white;
+}
+header {
+    padding-left: 30px;
+    height: 60px;
+    background-color: rgba(20, 20, 20, 0.975);
+}
+header>nav {
+    height: 100%;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+header>nav>.loginLink {
+    position: absolute;
+    right: 50px;
+    color: white;
+}
+header>nav>a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+    margin-bottom: 150px;
+    overflow-y: scroll;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.auth-link {
+    color: rgb(3, 119, 186);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: rgba(20, 20, 20, 0.975);
+    height: 40px;
+}
+.custom-404 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    width: 5px;
+    background-color: rgba(102, 102, 102, 0.232);
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    box-shadow: inset 0 0 6px rgb(0, 0, 0);
+}

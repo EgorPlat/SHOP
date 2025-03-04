@@ -1,0 +1,15 @@
+.user-profile {
+    display: grid;
+    gap: 10px;
+}
+.user-profile-info {
+    margin-top: 20px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px 1fr;
+    gap: 20px;
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    box-sizing: border-box;
+}

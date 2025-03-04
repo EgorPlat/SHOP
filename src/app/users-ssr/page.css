@@ -1,0 +1,12 @@
+.users-ssr {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.users-ssr-data {
+    height: 40px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
